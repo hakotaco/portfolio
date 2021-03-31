@@ -52,7 +52,6 @@
         }
       },
       makeDropdown: function(e) {
-        console.log(e)
         let rightDist = e.clientX
         let dropdown = document.getElementById('dropdown')
         if(dropdown.style.display === 'flex'){
