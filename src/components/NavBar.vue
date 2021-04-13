@@ -6,7 +6,7 @@
         <li v-on:click="handleMenu" id="timeline" class="menu-item">Timeline</li>
         <li v-on:click="handleMenu" id="work" class="menu-item">Work</li>
         <li v-on:click="handleMenu" id="contact" class="menu-item">Contact Me</li>
-        <li id="resume" class="menu-item"><a href="https://drive.google.com/file/d/1fAD3Wu_jvCkklbpfAJkcV7EX2xRtdFG6/view?usp=sharing" target="_blank" style="text-decoration: none; color: #000;">Résumé</a></li>
+        <li id="resume" class="menu-item"><a href="https://drive.google.com/file/d/1gy30JjQcoE9CLXIQeuCNTT65xlcYVATN/view?usp=sharing" target="_blank" style="text-decoration: none; color: #000;">Résumé</a></li>
       </ul>
     </div>
     <div class="mobile-nav">
@@ -19,7 +19,7 @@
           <li v-on:click="handleMenu2" id="timeline" class="menu-item">Timeline</li>
           <li v-on:click="handleMenu2" id="work" class="menu-item">Work</li>
           <li v-on:click="handleMenu2" id="contact" class="menu-item">Contact Me</li>
-          <li id="resume" class="menu-item"><a href="https://drive.google.com/file/d/1fAD3Wu_jvCkklbpfAJkcV7EX2xRtdFG6/view?usp=sharing" target="_blank" style="text-decoration: none; color: #000;">Résumé</a></li>
+          <li id="resume" class="menu-item"><a href="https://drive.google.com/file/d/1gy30JjQcoE9CLXIQeuCNTT65xlcYVATN/view?usp=sharing" target="_blank" style="text-decoration: none; color: #000;">Résumé</a></li>
         </ul>
       </div>
     </div>
