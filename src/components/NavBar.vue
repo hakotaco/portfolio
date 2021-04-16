@@ -23,7 +23,7 @@
     </div>
     <div class="mobile-nav">
       <ul>
-        <li class="has-dropdown">
+        <li tabindex="0" class="has-dropdown">
           <button class="drpdwn-button">
             <img src="../assets/menu.svg" />
           </button>
