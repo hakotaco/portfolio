@@ -10,10 +10,10 @@
       </p>
       <div class="work-container">
         <div v-for="(w, i) in work" :key="i" class="work-card animate__animated animate__fadeInUp animate__delay-1s">
+          <img :src="w.img" />
           <a target="_blank" :href="w.url">
             {{w.name}}
           </a>
-          <img :src="w.img" />
         </div>
       </div>
     </div>
@@ -100,8 +100,10 @@ export default {
   .work-container {
     display: flex;
     flex-direction: column;
-    min-height: 50%;
-    padding-top: 50px;
+    height: 50%;
+    max-height: 50%;
+    overflow-y: auto;
+    padding: 10px;
     position: relative;
     width: 100%;
   }
@@ -112,29 +114,29 @@ export default {
     position: relative;
     border-radius: 10px;
     max-width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
   }
 
   .work-card:hover {
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
   }
 
   .work-card img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
     border-radius: 10px;
   }
 
   .work-card a {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
     width: 100%;
-    font-size: 90px;
-    text-decoration: none;
+    font-size: 24px;
     background: rgba(0,0,0,0);
-    color: rgba(0,0,0,0);
+    color: rgba(0,0,0,1);
     margin: 0;
     padding: 5px;
     box-sizing: border-box;
@@ -147,8 +149,7 @@ export default {
   }
   
   .work-card a:hover {
-    background: rgba(0,0,0,0.5);
-    color: #fff;
+    color: rgba(0,0,0,0.7);
   }
 
   @media (max-width: 991px) {

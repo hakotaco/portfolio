@@ -3,21 +3,23 @@
    <NavBar />
     <div class="center-circle"></div>
     <div class="container">
-      <h1 class="animate__animated animate__fadeInUp">About me</h1>
-      <p class="animate__animated animate__fadeInUp animate__delay-1s">
-        A passionate developer with a dream. A dream to provide the best user experience out there. I’ve been consistently developing software with various companies, organisations, startups and clients since December 2019.
-        I’m proficient in JavaScript, both backend and frontend. Highly experienced in react and have a good hold of the fundamentals of Vue, Next JS and a bunch of commonly used libraries like bootstrap, ant-design etc.
-      </p>
-      <p class="animate__animated animate__fadeInUp animate__delay-2s">
-        I write efficient REST API’s using Node.JS and Golang and have a good amount of experience with relational (MySql, Postgresql) and non-relational (MongoDB) databases.
-      </p>
-      <p class="animate__animated animate__fadeInUp animate__delay-3s">
-        I’m a fan of paying attention to detail and understand how important it is. 
-        I design websites and android apps as a hobby and although, haven’t ever designed one professionally, I have made a bunch of sample designs to test my skills.
-      </p>
-      <p class="animate__animated animate__fadeInUp animate__delay-4s">
-        (You can find projects using all of the above <br/>mentioned skills in the work section) 
-      </p>
+      <article>
+        <h1 class="animate__animated animate__fadeInUp">About me</h1>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">
+          A passionate developer with a dream. A dream to provide the best user experience out there. I’ve been consistently developing software with various companies, organisations, startups and clients since December 2019.
+          I’m proficient in JavaScript, both backend and frontend. Highly experienced in react and have a good hold of the fundamentals of Vue, Next JS and a bunch of commonly used libraries like bootstrap, ant-design etc.
+        </p>
+        <p class="animate__animated animate__fadeInUp animate__delay-2s">
+          I write efficient REST API’s using Node.JS and Golang and have a good amount of experience with relational (MySql, Postgresql) and non-relational (MongoDB) databases.
+        </p>
+        <p class="animate__animated animate__fadeInUp animate__delay-3s">
+          I’m a fan of paying attention to detail and understand how important it is. 
+          I design websites and android apps as a hobby and although, haven’t ever designed one professionally, I have made a bunch of sample designs to test my skills.
+        </p>
+        <p class="animate__animated animate__fadeInUp animate__delay-4s">
+          (You can find projects using all of the above <br/>mentioned skills in the work section) 
+        </p>
+      </article> 
     </div>
     <div class="ill-container animate__animated animate__fadeInRight">
       <img src="../assets/about.svg" />
@@ -71,10 +73,21 @@ export default {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     box-sizing: border-box;
     overflow: auto;
+  }
+
+  article {
+    width: 100%;
+    height: 60%;
+    max-height: 60%;
+    overflow: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    box-sizing: border-box;
   }
 
   .ill-container {
@@ -106,8 +119,14 @@ export default {
 
       .container {
         width: 100%;
-        justify-content: unset;
+        justify-content: flex-start;
         margin-top: 100px;
+        height: unset;
+      }
+
+      article {
+        height: 100%;
+        margin-bottom: 20px;
       }
   }
 </style>

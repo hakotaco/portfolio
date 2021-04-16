@@ -76,7 +76,9 @@ export default {
 
   .timeline {
     width: 100%;
-    /* height: 80%; */
+    height: 60%;
+    max-height: 60%;
+    overflow-y: auto;
   }
 
   .ill-container {
@@ -111,6 +113,12 @@ export default {
         justify-content: unset;
         margin-top: 100px;
         height: calc(100% - 100px);
+      }
+
+      .timeline {
+        height: unset;
+        max-height: unset;
+        margin-bottom: 20px;
       }
   }
 </style>
