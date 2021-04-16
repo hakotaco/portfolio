@@ -22,6 +22,7 @@ export default {
         ccir.removeChild(ccir.childNodes[0])
         ccir.style.maxWidth = '2000px'
         ccir.style.width = '100vw'
+        ccir.style.minWidth = '100vw'
         ccir.style.height = '100vw'
         ccir.style.animationFillMode = 'none'
         setTimeout(()=> {
