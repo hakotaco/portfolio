@@ -3,7 +3,7 @@
    <NavBar />
     <div class="center-circle"></div>
     <div class="container">
-      <article>
+      <main>
         <h1 class="animate__animated animate__fadeInUp">About me</h1>
         <p class="animate__animated animate__fadeInUp animate__delay-1s">
           A passionate developer with a dream. A dream to provide the best user experience out there. I’ve been consistently developing software with various companies, organisations, startups and clients since December 2019.
@@ -19,7 +19,7 @@
         <p class="animate__animated animate__fadeInUp animate__delay-4s">
           (You can find projects using all of the above <br/>mentioned skills in the work section) 
         </p>
-      </article> 
+      </main> 
     </div>
     <div class="ill-container animate__animated animate__fadeInRight">
       <img src="../assets/about.svg" />
@@ -79,7 +79,7 @@ export default {
     overflow: auto;
   }
 
-  article {
+  main {
     width: 100%;
     height: 60%;
     max-height: 60%;
@@ -124,7 +124,7 @@ export default {
         height: unset;
       }
 
-      article {
+      main {
         height: 100%;
         margin-bottom: 20px;
       }
