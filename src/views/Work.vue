@@ -112,7 +112,7 @@ export default {
 
   .work-container > a {
     width: 400px;
-    min-width: 100%;
+    min-width: 400px;
     margin-right: 20px;
     height: fit-content;
     box-sizing: border-box;
@@ -152,6 +152,8 @@ export default {
     padding: 5px;
     box-sizing: border-box;
     text-decoration: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   @media (max-width: 991px) {
@@ -167,6 +169,10 @@ export default {
         width: 100%;
         justify-content: unset;
         margin-top: 100px;
+      }
+
+      .work-container > a {
+        min-width: 100%;
       }
   }
 </style>
