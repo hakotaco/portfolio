@@ -4,21 +4,22 @@
     <div class="center-circle"></div>
     <div class="container">
       <h1 class="animate__animated animate__fadeInUp">Work</h1>
-      <p class="animate__animated animate__fadeInUp animate__delay-1s">
+      <p class="animate__animated animate__fadeInLeft">
         These are some of the projects i’ve worked on that are live right now.<br/>
         However, not everything I’ve worked on is up for the world to see, unfortunately. You can check out my <a href="https://www.github.com/AshDarkfold" target="_blank">github</a> to see all the projects i’ve contributed to!
       </p>
       <div class="work-container">
-        <div v-for="(w, i) in work" :key="i" class="work-card animate__animated animate__fadeInUp animate__delay-1s">
-          <img :src="w.img" />
-          <a target="_blank" :href="w.url">
-            {{w.name}}
-          </a>
-        </div>
+        <a class="animate__animated animate__fadeInLeft" v-for="(w, i) in work" :key="i" target="_blank" :href="w.url">
+          <div class="work-card">
+            <img :src="w.img" />
+            <span>{{w.name}}</span>
+          </div>
+        </a>
       </div>
+
     </div>
     <div class="ill-container animate__animated animate__fadeInRight">
-      <img src="../assets/about.svg" />
+      <img src="../assets/work.svg" />
     </div>
   </div>
 </template>
@@ -99,17 +100,28 @@ export default {
 
   .work-container {
     display: flex;
-    flex-direction: column;
-    height: 50%;
+    height: fit-content;
     max-height: 50%;
-    overflow-y: auto;
+    overflow-x: auto;
+    white-space: nowrap;
     padding: 10px;
     position: relative;
     width: 100%;
+    box-sizing: border-box;
+  }
+
+  .work-container > a {
+    width: 400px;
+    min-width: 100%;
+    margin-right: 20px;
+    height: fit-content;
+    box-sizing: border-box;
   }
 
   .work-card {
-    width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     transition: all 0.3s ease;
     position: relative;
     border-radius: 10px;
@@ -117,7 +129,6 @@ export default {
     background-color: #fff;
     padding: 10px;
     box-sizing: border-box;
-    margin-bottom: 20px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
   }
 
@@ -127,29 +138,20 @@ export default {
 
   .work-card img {
     width: 100%;
-    height: 80%;
+    height: 225px;
     object-fit: cover;
+    object-position: left;
     border-radius: 10px;
   }
 
-  .work-card a {
-    width: 100%;
+  .work-card > span {
     font-size: 24px;
     background: rgba(0,0,0,0);
     color: rgba(0,0,0,1);
     margin: 0;
     padding: 5px;
     box-sizing: border-box;
-    transition: all 0.3s ease;
-    border-radius: 10px;
-  }
-
-  .work-card a:visited {
     text-decoration: none;
-  }
-  
-  .work-card a:hover {
-    color: rgba(0,0,0,0.7);
   }
 
   @media (max-width: 991px) {

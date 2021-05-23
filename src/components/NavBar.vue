@@ -1,6 +1,6 @@
 <template>
   <div class="nav-container">
-    <img src="../assets/logo.svg" alt="Ashutosh kaushik's logo">
+    <router-link to="/"><img src="../assets/logo.svg" alt="Ashutosh kaushik's logo"></router-link>
     <div class="nav">
       <ul>
         <li v-on:click="handleMenu" id="about" class="menu-item">About Me</li>
@@ -72,6 +72,7 @@ export default {
       }, 400);
     },
     initHighlight: function() {
+      console.log("hep")
       let currRoute = this.$router.history.current.path;
       if (currRoute !== "/" && window.innerWidth > 991) {
         let toSelect = document.getElementById(currRoute.substring(1));
@@ -79,6 +80,11 @@ export default {
         highlight.style.left = toSelect.offsetLeft.toString() + "px";
         highlight.style.top = toSelect.offsetTop.toString() + "px";
         highlight.style.width = toSelect.offsetWidth.toString() + "px";
+      } else {
+        let highlightDel = document.getElementById("highlight");
+        if(highlightDel) {
+          highlightDel.style.width="0"  
+        }
       }
     }
   },
@@ -87,8 +93,8 @@ export default {
     window.addEventListener("resize", () => {
       this.initHighlight();
     });
-  },
-};
+  }
+  }
 </script>
 
 <style>
@@ -106,7 +112,7 @@ export default {
   box-sizing: border-box;
 }
 
-.nav-container > img {
+.nav-container > a > img {
   width: 70px;
   height: auto;
 
@@ -145,7 +151,7 @@ export default {
 }
 
 .nav > ul > li:hover {
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
 .mobile-nav {

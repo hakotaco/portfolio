@@ -4,14 +4,14 @@
     <div class="center-circle"></div>
     <div class="container">
       <h1 class="animate__animated animate__fadeInUp">Contact Me</h1>
-      <p class="animate__animated animate__fadeInUp animate__delay-1s">
+      <p class="animate__animated animate__fadeInLeft">
         Be it some doubt, freelance work, a job offer &#128584;, or anything else! Please don't hesitate to reach out to me through the following means.
       </p>
       <div class="socials-container">
-        <a href="mailto:ashutosh.kaushik1999@gmail.com"><img src="../assets/mail.svg" alt="instagram"></a>
-        <a href="https://www.linkedin.com/in/ashdarkfold/"><img src="../assets/linkedin.svg" alt="instagram"></a>
-        <a href="https://twitter.com/Kaushikxx_"><img src="../assets/twitter.svg" alt="instagram"></a>
-        <a href="https://www.instagram.com/ashdarkfold"><img src="../assets/instagram.svg" alt="instagram"></a>
+        <a class="animate__animated animate__fadeInLeft" href="mailto:ashutosh.kaushik1999@gmail.com"><img src="../assets/mail.svg" alt="instagram"></a>
+        <a class="animate__animated animate__fadeInLeft" href="https://www.linkedin.com/in/ashdarkfold/"><img src="../assets/linkedin.svg" alt="instagram"></a>
+        <a class="animate__animated animate__fadeInLeft" href="https://twitter.com/Kaushikxx_"><img src="../assets/twitter.svg" alt="instagram"></a>
+        <a class="animate__animated animate__fadeInLeft" href="https://www.instagram.com/ashdarkfold"><img src="../assets/instagram.svg" alt="instagram"></a>
       </div>
     </div>
     <div class="ill-container animate__animated animate__fadeInRight">

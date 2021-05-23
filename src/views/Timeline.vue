@@ -64,7 +64,7 @@ export default {
     top: 0;
     width: 40%;
     text-align: left;
-    padding: 0 40px;
+    padding: 0 100px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -113,6 +113,7 @@ export default {
         justify-content: unset;
         margin-top: 100px;
         height: calc(100% - 100px);
+        padding: 0px 40px;
       }
 
       .timeline {

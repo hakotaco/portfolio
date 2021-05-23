@@ -29,7 +29,7 @@ export default {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: hidden;
     padding-left: 5px;
     margin-top: 20px;
   }

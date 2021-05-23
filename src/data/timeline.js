@@ -1,11 +1,6 @@
 const timelineData = [
   {
-    line1: "10th standard (9.4 CGPA)",
-    line2: "April 2016",
-    line3: "Salwan Public School"
-  },
-  {
-    line1: "12th standard (87%)",
+    line1: "12th standard",
     line2: "April 2018",
     line3: "Salwan Public School"
   },
