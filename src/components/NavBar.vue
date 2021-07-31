@@ -13,7 +13,7 @@
         </li>
         <li id="resume" class="menu-item">
           <a
-            href="https://drive.google.com/file/d/1Lip4IRLt4q8amnGMxiVUHFek8TKFRDfl/view?usp=sharing"
+            href="https://drive.google.com/file/d/15iq7joGWURNsTq-C2mvQ7Jy-Nc-79F13/view?usp=sharing"
             target="_blank"
             style="text-decoration: none; color: #000"
             >Résumé</a
@@ -42,7 +42,7 @@
             </li>
             <li id="resume" class="menu-item">
               <a
-                href="https://drive.google.com/file/d/1Lip4IRLt4q8amnGMxiVUHFek8TKFRDfl/view?usp=sharing"
+                href="https://drive.google.com/file/d/15iq7joGWURNsTq-C2mvQ7Jy-Nc-79F13/view?usp=sharing"
                 target="_blank"
               >
                 Résumé

@@ -10,14 +10,32 @@
           I’m proficient in JavaScript, both backend and frontend. Highly experienced in react and have a good hold of the fundamentals of Vue, Next JS and a bunch of commonly used libraries like bootstrap, ant-design etc.
         </p>
         <p class="animate__animated animate__fadeInLeft">
-          I write efficient REST API’s using Node.JS and Golang and have a good amount of experience with relational (MySql, Postgresql) and non-relational (MongoDB) databases.
+          I write efficient REST API’s using Node.JS and Python (Django) and have a good amount of experience with relational (MySql, Postgresql) and non-relational (MongoDB) databases.
         </p>
         <p class="animate__animated animate__fadeInLeft">
-          I’m a fan of paying attention to detail and understand how important it is. 
-          I design websites and android apps as a hobby and although, haven’t ever designed one professionally, I have made a bunch of sample designs to test my skills.
-        </p>
-        <p class="animate__animated animate__fadeInLeft">
-          (You can find projects using all of the above <br/>mentioned skills in the work section) 
+          <strong>
+            Top skills:
+          </strong>
+          <ul>
+            <li>
+              MERN ( + HTML, CSS, JavaScript, TypeScript)
+            </li>
+            <li>
+              Python (+ Django)
+            </li>
+            <li>
+              Golang
+            </li>
+            <li>
+              Next.js
+            </li>
+            <li>
+              DevOps
+            </li>
+            <li>
+              Problem Solving
+            </li>
+          </ul>
         </p>
       </main> 
     </div>
