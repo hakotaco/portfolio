@@ -1,6 +1,8 @@
 <template>
   <div class="nav-container">
-    <router-link to="/"><img src="../assets/logo.svg" alt="Ashutosh kaushik's logo"></router-link>
+    <router-link to="/"
+      ><img src="../assets/logo.svg" alt="Ashutosh kaushik's logo"
+    /></router-link>
     <div class="nav">
       <ul>
         <li v-on:click="handleMenu" id="about" class="menu-item">About Me</li>
@@ -13,7 +15,7 @@
         </li>
         <li id="resume" class="menu-item">
           <a
-            href="https://drive.google.com/file/d/15iq7joGWURNsTq-C2mvQ7Jy-Nc-79F13/view?usp=sharing"
+            href="https://drive.google.com/file/d/1co83vR59hkJeFUGnXlD08IyXnwjD1e4S/view?usp=sharing"
             target="_blank"
             style="text-decoration: none; color: #000"
             >Résumé</a
@@ -42,7 +44,7 @@
             </li>
             <li id="resume" class="menu-item">
               <a
-                href="https://drive.google.com/file/d/15iq7joGWURNsTq-C2mvQ7Jy-Nc-79F13/view?usp=sharing"
+                href="https://drive.google.com/file/d/1co83vR59hkJeFUGnXlD08IyXnwjD1e4S/view?usp=sharing"
                 target="_blank"
               >
                 Résumé
@@ -62,7 +64,7 @@
 export default {
   name: "NavBar",
   methods: {
-    handleMenu: function(e) {
+    handleMenu: function (e) {
       let highlight = document.getElementById("highlight");
       highlight.style.left = e.target.offsetLeft.toString() + "px";
       highlight.style.top = e.target.offsetTop.toString() + "px";
@@ -71,8 +73,8 @@ export default {
         this.$router.push(e.target.id);
       }, 400);
     },
-    initHighlight: function() {
-      console.log("hep")
+    initHighlight: function () {
+      console.log("hep");
       let currRoute = this.$router.history.current.path;
       if (currRoute !== "/" && window.innerWidth > 991) {
         let toSelect = document.getElementById(currRoute.substring(1));
@@ -82,19 +84,19 @@ export default {
         highlight.style.width = toSelect.offsetWidth.toString() + "px";
       } else {
         let highlightDel = document.getElementById("highlight");
-        if(highlightDel) {
-          highlightDel.style.width="0"  
+        if (highlightDel) {
+          highlightDel.style.width = "0";
         }
       }
-    }
+    },
   },
-  mounted: function() {
+  mounted: function () {
     this.initHighlight();
     window.addEventListener("resize", () => {
       this.initHighlight();
     });
-  }
-  }
+  },
+};
 </script>
 
 <style>
@@ -115,7 +117,6 @@ export default {
 .nav-container > a > img {
   width: 70px;
   height: auto;
-
 }
 
 .nav {

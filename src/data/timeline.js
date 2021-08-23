@@ -1,6 +1,6 @@
 const timelineData = [
   {
-    line1: "12th standard",
+    line1: "Higher Secondary",
     line2: "April 2018",
     line3: "Salwan Public School",
   },
@@ -21,8 +21,13 @@ const timelineData = [
   },
   {
     line1: "Software Engineer Intern",
-    line2: "December 2020 - April 2021",
+    line2: "November 2020 - March 2021",
     line3: "Kuzagan Tech. Pvt. Ltd.",
+  },
+  {
+    line1: "VP of Technology",
+    line2: "March 2021 - July 2021",
+    line3: "C4 Projects",
   },
   {
     line1: "Software Engineer Intern",
