@@ -15,7 +15,7 @@
         </li>
         <li id="resume" class="menu-item">
           <a
-            href="https://drive.google.com/file/d/1co83vR59hkJeFUGnXlD08IyXnwjD1e4S/view?usp=sharing"
+            href="https://drive.google.com/file/d/1gKDGKCOZYT4HOfAyhwDO_OAsOccDhwsQ/view?usp=sharing"
             target="_blank"
             style="text-decoration: none; color: #000"
             >Résumé</a
@@ -44,7 +44,7 @@
             </li>
             <li id="resume" class="menu-item">
               <a
-                href="https://drive.google.com/file/d/1co83vR59hkJeFUGnXlD08IyXnwjD1e4S/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gKDGKCOZYT4HOfAyhwDO_OAsOccDhwsQ/view?usp=sharing"
                 target="_blank"
               >
                 Résumé
