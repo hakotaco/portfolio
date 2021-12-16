@@ -34,6 +34,11 @@ const timelineData = [
     line2: "July 2021 - August 2021",
     line3: "Loopclub Internet Private Limited",
   },
+  {
+    line1: "Member of technical staff",
+    line2: "September 2021 - current",
+    line3: "Clearfeed",
+  }
 ];
 
 export default timelineData;
