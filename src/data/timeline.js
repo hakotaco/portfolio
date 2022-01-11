@@ -10,11 +10,6 @@ const timelineData = [
     line3: "Vellore Institute of Technology",
   },
   {
-    line1: "Frontend Intern",
-    line2: "April 2020 - May 2020",
-    line3: "Kuzagan Tech. Pvt. Ltd.",
-  },
-  {
     line1: "Software Engineer Intern",
     line2: "May 2020 - July 2020",
     line3: "Inqutec Labs Pvt. Ltd.",
@@ -35,9 +30,14 @@ const timelineData = [
     line3: "Loopclub Internet Private Limited",
   },
   {
-    line1: "Member of technical staff",
-    line2: "September 2021 - current",
+    line1: "Member of technical staff Intern",
+    line2: "September 2021 - January 2022",
     line3: "Clearfeed",
+  },
+  {
+    line1: "UX Engineer",
+    line2: "January 2022 - current",
+    line3: "Spext"
   }
 ];
 
