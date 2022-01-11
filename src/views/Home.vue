@@ -3,7 +3,7 @@
     <div id="center-circle" class="center-circle animate__animated animate__bounceIn" v-on:click="handleClick">
       <div>
         <h1>Hey,<br/>I'm Ashutosh</h1>
-        <h3>Full Stack developer<br/>and designer</h3>
+        <h3>Software Developer<br/>with a knack for UX</h3>
         <span>Click here to learn more</span>
       </div>
     </div>
