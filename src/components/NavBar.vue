@@ -15,7 +15,7 @@
         </li>
         <li id="resume" class="menu-item">
           <a
-            href="https://drive.google.com/file/d/1gKDGKCOZYT4HOfAyhwDO_OAsOccDhwsQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Z-0kH4kolM6hNLJr-Doma0Us-U0ejXpR/view?usp=sharing"
             target="_blank"
             style="text-decoration: none; color: #000"
             >Résumé</a

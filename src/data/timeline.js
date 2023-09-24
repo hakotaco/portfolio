@@ -17,12 +17,7 @@ const timelineData = [
   {
     line1: "Software Engineer Intern",
     line2: "November 2020 - March 2021",
-    line3: "Kuzagan Tech. Pvt. Ltd.",
-  },
-  {
-    line1: "VP of Technology",
-    line2: "March 2021 - July 2021",
-    line3: "C4 Projects",
+    line3: "Winuall",
   },
   {
     line1: "Software Engineer Intern",
@@ -35,7 +30,7 @@ const timelineData = [
     line3: "Clearfeed",
   },
   {
-    line1: "UX Engineer",
+    line1: "Product Engineer",
     line2: "January 2022 - current",
     line3: "Spext"
   }

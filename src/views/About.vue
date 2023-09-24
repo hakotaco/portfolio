@@ -6,11 +6,11 @@
       <main>
         <h1 class="animate__animated animate__fadeInUp">About me</h1>
         <p class="animate__animated animate__fadeInLeft">
-          A passionate developer with a dream to provide the best user experience out there. I’ve been consistently developing software with various companies, organisations, startups and clients since December 2019.
-          I’m proficient in TypeScript, both backend and frontend. Highly experienced in React and Next.js and have a good hold of the fundamentals of Vue and a bunch of commonly used libraries like bootstrap, ant-design etc.
+          A passionate developer with a dream to provide the best user experience out there. I've been consistently developing software with various companies, organisations, startups and clients since December 2019.
+          I'm proficient in TypeScript, both backend and frontend and experienced in developing complex and robust frontend solutions. Highly experienced in React, Vue and Next.js and have a good hold of the fundamentals of Node JS and a bunch of commonly used libraries like bootstrap, ant-design etc.
         </p>
         <p class="animate__animated animate__fadeInLeft">
-          I write efficient REST API’s using Node.JS (primarily with TypeScript) and have a good amount of experience with relational (MySql, Postgresql) and non-relational (MongoDB) databases.
+          I write efficient REST API's using Node.JS (primarily with TypeScript) and have a good amount of experience with relational (MySql, Postgresql) and non-relational (MongoDB) databases.
         </p>
         <p class="animate__animated animate__fadeInLeft">
           <strong>
@@ -18,13 +18,13 @@
           </strong>
           <ul>
             <li>
-              MERN ( + HTML, CSS, JavaScript, TypeScript)
+              MERN ( + HTML, CSS, JavaScript, TypeScript, Vue)
             </li>
             <li>
               Next.js
             </li>
             <li>
-              DevOps
+              Node JS
             </li>
             <li>
               Problem Solving

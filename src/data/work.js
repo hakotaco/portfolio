@@ -1,11 +1,11 @@
-const ideaImg = require('../assets/ideasImg.png')
+const spursImg = require('../assets/spurs.png')
 const sampleImg = require('../assets/sampleimg.png')
 
 const work = [
   {
-    name: "Ideas Website",
-    url: "https://ideas.dscvit.com",
-    img: ideaImg
+    name: "The Spurs Express",
+    url: "https://thespursexpress.com",
+    img: spursImg
   },
   {
     name: "Sample Design Conversion",
